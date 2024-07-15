@@ -1,0 +1,22 @@
+{
+  "jsc": {
+    "baseUrl": "./",
+    "parser": {
+      "syntax": "typescript",
+      "tsx": true,
+      "dynamicImport": true
+    },
+    "paths": {
+      "assets/*": ["src/assets/*"],
+      "core/*": ["src/core/*"],
+      "api/*": ["src/api/*"],
+      "components/*": ["src/components/*"],
+      "containers/*": ["src/containers/*"],
+      "pages/*": ["src/pages/*"],
+      "router/*": ["src/router/*"],
+      "models/*": ["src/models/*"],
+      "src/*": ["src/*"]
+    },
+    "target": "es2016"
+  }
+}

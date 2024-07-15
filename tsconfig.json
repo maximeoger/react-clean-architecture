@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "outDir": "./build/",
+    "baseUrl": "./",
+    "paths": {
+      "assets/*": ["src/assets/*"],
+      "api/*": ["src/api/*"],
+      "components/*": ["src/components/*"],
+      "containers/*": ["src/containers/*"],
+      "pages/*": ["src/pages/*"],
+      "router/*": ["src/router/*"],
+      "core/*": ["src/core/*"],
+      "models/*": ["src/models/*"],
+      "src/*": ["src/*"]
+    },
+    "skipLibCheck": true,
+    "noEmit": true,
+    "noImplicitAny": false,
+    "downlevelIteration": true,
+    "lib": ["ESNext", "dom"],
+    "rootDir": "src",
+    "module": "esnext",
+    "target": "ESNext",
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "jsx": "react",
+    "allowJs": true
+  },
+  "include": ["./src/**/*", "./custom.d.ts"],
+  "exclude": ["node_modules"]
+}
